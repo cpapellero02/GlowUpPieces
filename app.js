@@ -12,7 +12,7 @@ const PRODUCTS = [
     desc: 'Ultra-pigmented matte formula that stays for 8 hours. Non-drying, no feathering — just pure velvety color.',
     price: 299, oldPrice: 380,
     badge: 'bestseller',
-    img: 'https://images.unsplash.com/photo-1586495777744-4e6232bf0f30?w=480&q=85'
+    img: "https://th.bing.com/th/id/OIP.7a3N4WU6jlHEhubKca0cawHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
   },
   {
     id: 2, cat: 'lips',
@@ -20,7 +20,7 @@ const PRODUCTS = [
     desc: 'Nourishing lip oil with a mirror-shine finish. Plumps and hydrates with castor oil and vitamin E.',
     price: 249,
     badge: 'new',
-    img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=480&q=85'
+    img: 'https://www.gosupps.com/media/catalog/product/7/1/71qsM3_0o4L.jpg'
   },
   {
     id: 3, cat: 'lips',
@@ -37,7 +37,7 @@ const PRODUCTS = [
     desc: '18-shade palette ranging from everyday wearables to dramatic smoky shades. Blendable, buildable color.',
     price: 699, oldPrice: 850,
     badge: 'sale',
-    img: 'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=480&q=85'
+    img: 'https://th.bing.com/th/id/R.7d3d18f897b04c5d857aba5f3688533f?rik=zWK739UQMzsBng&riu=http%3a%2f%2fwww.deckofscarlet.com%2fcdn%2fshop%2ffiles%2fDoS-Eyeshadow-Palette-Maximalist-_-Solar-Aura-Campaign-2.jpg%3fv%3d1707209742&ehk=o7SpOS5M%2fyprYD8m6nuoiFO6SglNAOOljds3VqWbZEk%3d&risl=&pid=ImgRaw&r=0'
   },
   {
     id: 5, cat: 'eyes',
@@ -45,7 +45,7 @@ const PRODUCTS = [
     desc: 'Bamboo fiber formula adds 3× length and volume. Clump-free brush gives dramatic, separated lashes.',
     price: 349,
     badge: 'bestseller',
-    img: 'https://images.unsplash.com/photo-1631730486784-74757d38e27c?w=480&q=85'
+    img: 'https://tse1.mm.bing.net/th/id/OIP.Nk5s6QsrSR3Ro_wmfWYe1wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3'
   },
   {
     id: 6, cat: 'eyes',
@@ -53,7 +53,7 @@ const PRODUCTS = [
     desc: 'Ultra-fine felt tip delivers precise cat-eye wings. Waterproof, smudge-proof, all-day wear.',
     price: 229,
     badge: null,
-    img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=480&q=85'
+    img: 'https://goldenrose.nl/wp-content/uploads/2020/10/Precision-Liner-01.jpg'
   },
   // ── FACE & FOUNDATION ─────────────────────────────
   {
@@ -78,7 +78,7 @@ const PRODUCTS = [
     desc: 'Creamy, blendable contour + bronzer duo stick. Sculpts cheekbones and adds a sun-kissed warmth.',
     price: 329,
     badge: 'new',
-    img: 'https://images.unsplash.com/photo-1631390919520-a5b8d336e1a4?w=480&q=85'
+    img: 'https://camillestyles.com/wp-content/uploads/2023/06/Fenty-Beauty-Match-Stix-Matte-Contour-Skinstick.webp'
   },
   {
     id: 10, cat: 'face',
@@ -95,7 +95,7 @@ const PRODUCTS = [
     desc: 'Brightening 15% Vitamin C serum with ferulic acid. Fades dark spots and preps skin for a luminous makeup base.',
     price: 649,
     badge: 'bestseller',
-    img: 'https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=480&q=85'
+    img: 'https://media.sephora.eu/content/dam/digital/pim/published/S/SEPHORA%20COLLECTION/P10061396/105741-media_5.jpeg?scaleWidth=undefined&scaleHeight=undefined&scaleMode=undefined'
   },
   {
     id: 12, cat: 'skincare',
@@ -134,17 +134,17 @@ const PRODUCTS = [
 
 // Use unique real Unsplash photo IDs per product (override generic images)
 const PRODUCT_IMGS = {
-  1:  'https://images.unsplash.com/photo-1586495777744-4e6232bf0f30?w=480&q=85',   // red lipstick tube
-  2:  'https://images.unsplash.com/photo-1631174078071-7b0c7f1c2bc7?w=480&q=85',   // lip gloss
+  1:  'https://th.bing.com/th/id/OIP.7a3N4WU6jlHEhubKca0cawHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',   // red lipstick tube
+  2:  'https://www.gosupps.com/media/catalog/product/7/1/71qsM3_0o4L.jpg',   // lip gloss
   3:  'https://images.unsplash.com/photo-1503236823255-94609f598e71?w=480&q=85',   // nude makeup closeup
-  4:  'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=480&q=85',   // eyeshadow palette
-  5:  'https://images.unsplash.com/photo-1631730486784-74757d38e27c?w=480&q=85',   // mascara wand
-  6:  'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=480&q=85',   // eyeliner/eye
+  4:  'https://th.bing.com/th/id/R.7d3d18f897b04c5d857aba5f3688533f?rik=zWK739UQMzsBng&riu=http%3a%2f%2fwww.deckofscarlet.com%2fcdn%2fshop%2ffiles%2fDoS-Eyeshadow-Palette-Maximalist-_-Solar-Aura-Campaign-2.jpg%3fv%3d1707209742&ehk=o7SpOS5M%2fyprYD8m6nuoiFO6SglNAOOljds3VqWbZEk%3d&risl=&pid=ImgRaw&r=0',   // eyeshadow palette
+  5:  'https://evalinabeauty.com/cdn/shop/products/flutterproduct_swash.jpg?v=1677609863&width=1445',   // eyeliner/eye
+  6: 'https://goldenrose.nl/wp-content/uploads/2020/10/Precision-Liner-01.jpg',   // mascara/eye
   7:  'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=480&q=85',   // foundation bottles
   8:  'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=480&q=85',   // glittery highlighter
-  9:  'https://images.unsplash.com/photo-1631390919520-a5b8d336e1a4?w=480&q=85',   // skincare/contour product
+  9:  'https://camillestyles.com/wp-content/uploads/2023/06/Fenty-Beauty-Match-Stix-Matte-Contour-Skinstick.webp',   // skincare/contour product
   10: 'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=480&q=85',   // blush palette
-  11: 'https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=480&q=85',   // serum dropper bottle
+  11: 'https://media.sephora.eu/content/dam/digital/pim/published/S/SEPHORA%20COLLECTION/P10061396/105741-media_5.jpeg?scaleWidth=undefined&scaleHeight=undefined&scaleMode=undefined',   // serum dropper bottle
   12: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=480&q=85',      // moisturizer jar
   13: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=480&q=85',   // cleanser pump bottle
   14: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=480&q=85',   // makeup brushes set
