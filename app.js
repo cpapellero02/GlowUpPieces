@@ -2,19 +2,19 @@
 const PRODUCTS = [
   { id:1,  cat:'lips',     name:'VelvetKiss Matte Lip Cream',      desc:'Ultra-pigmented matte formula that stays for 8 hours. Non-drying, no feathering — just pure velvety color.',           price:299, oldPrice:380, badge:'bestseller', img:'https://th.bing.com/th/id/OIP.7a3N4WU6jlHEhubKca0cawHaHa?rs=1&pid=ImgDetMain' },
   { id:2,  cat:'lips',     name:'GlossyGlow Lip Oil',               desc:'Nourishing lip oil with a mirror-shine finish. Plumps and hydrates with castor oil and vitamin E.',                    price:249, badge:'new',        img:'https://www.gosupps.com/media/catalog/product/7/1/71qsM3_0o4L.jpg' },
-  { id:3,  cat:'lips',     name:'NudeScene Lip Liner',              desc:'Creamy, long-wearing liner that defines and preps lips. Shade range covers nudes to deep berries.',                     price:189, badge:null,         img:'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=480&q=85' },
+  { id:3,  cat:'lips',     name:'NudeScene Lip Liner',              desc:'Creamy, long-wearing liner that defines and preps lips. Shade range covers nudes to deep berries.',                     price:189, badge:null,         img:'https://tse4.mm.bing.net/th/id/OIP.W9OhqxcvoiVYWS_SqdRtIQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3' },
   { id:4,  cat:'eyes',     name:'DepthCharge Eyeshadow Palette',    desc:'18-shade palette ranging from everyday wearables to dramatic smoky shades. Blendable, buildable color.',               price:699, oldPrice:850, badge:'sale',        img:'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=480&q=85' },
   { id:5,  cat:'eyes',     name:'FlutterLash Fiber Mascara',        desc:'Bamboo fiber formula adds 3× length and volume. Clump-free brush gives dramatic, separated lashes.',                   price:349, badge:'bestseller', img:'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=480&q=85' },
-  { id:6,  cat:'eyes',     name:'InkLine Precision Eyeliner',       desc:'Ultra-fine felt tip delivers precise cat-eye wings. Waterproof, smudge-proof, all-day wear.',                          price:229, badge:null,         img:'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=480&q=85' },
+  { id:6,  cat:'eyes',     name:'InkLine Precision Eyeliner',       desc:'Ultra-fine felt tip delivers precise cat-eye wings. Waterproof, smudge-proof, all-day wear.',                          price:229, badge:null,         img:'https://i5.walmartimages.com/asr/d4b78e28-1f52-4213-933b-a8fbb4f7b2ba.b2d9f35033e6341548912f8fce2a5e94.png?odnHeight=450&odnWidth=450&odnBg=ffffff' },
   { id:7,  cat:'face',     name:'SkinMatch HD Foundation',          desc:'Medium-to-full coverage foundation in 24 shades. Breathable formula with hyaluronic acid for all-day comfort.',        price:549, badge:'bestseller', img:'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=480&q=85' },
-  { id:8,  cat:'face',     name:'DewDrop Liquid Highlighter',       desc:'Buildable liquid glow drops in pearl, champagne & rose gold. Mix into foundation or wear alone.',                     price:379, oldPrice:450, badge:'sale',        img:'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=480&q=85' },
-  { id:9,  cat:'face',     name:'BronzeGlow Contour Stick',         desc:'Creamy, blendable contour + bronzer duo stick. Sculpts cheekbones and adds a sun-kissed warmth.',                     price:329, badge:'new',        img:'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=480&q=85' },
+  { id:8,  cat:'face',     name:'DewDrop Liquid Highlighter',       desc:'Buildable liquid glow drops in pearl, champagne & rose gold. Mix into foundation or wear alone.',                     price:379, oldPrice:450, badge:'sale',        img:'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1568046965-highlight11-1568046957.jpg' },
+  { id:9,  cat:'face',     name:'BronzeGlow Contour Stick',         desc:'Creamy, blendable contour + bronzer duo stick. Sculpts cheekbones and adds a sun-kissed warmth.',                     price:329, badge:'new',        img:'https://tse4.mm.bing.net/th/id/OIP.C25AjwLcTK_b_uTisz8o6gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3' },
   { id:10, cat:'face',     name:'BlushBurst Powder Blush',          desc:'Finely milled blush with a natural flush and subtle shimmer. Lasts 10+ hours without creasing.',                      price:299, badge:null,         img:'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=480&q=85' },
   { id:11, cat:'skincare', name:'GlowPrep Vitamin C Serum',         desc:'Brightening 15% Vitamin C serum with ferulic acid. Fades dark spots and preps skin for a luminous makeup base.',     price:649, badge:'bestseller', img:'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=480&q=85' },
-  { id:12, cat:'skincare', name:'HydraVeil Moisturizing Cream',     desc:'Lightweight but deeply hydrating cream with ceramides and niacinamide. Plumps skin for a soft-focus effect.',         price:499, oldPrice:599, badge:'sale',        img:'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=480&q=85' },
+  { id:12, cat:'skincare', name:'HydraVeil Moisturizing Cream',     desc:'Lightweight but deeply hydrating cream with ceramides and niacinamide. Plumps skin for a soft-focus effect.',         price:499, oldPrice:599, badge:'sale',        img:'https://www.acml.com.au/wp-content/uploads/The-Skincare-Company-Hydrating-Moisturiser-100-ml.png' },
   { id:13, cat:'skincare', name:'ClearStart Micellar Cleanser',     desc:'Gentle micellar water that lifts makeup, unclogs pores, and balances skin without stripping moisture.',               price:349, badge:'new',        img:'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=480&q=85' },
-  { id:14, cat:'tools',    name:'SilkBlend 10-Brush Set',           desc:'Professional-grade synthetic brush set for face, eye, and lip application. Ergonomic rose-gold handles.',             price:799, oldPrice:999, badge:'bestseller', img:'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=480&q=85' },
-  { id:15, cat:'tools',    name:'MicroVelvet Beauty Sponge',        desc:'Vegan micro-velour sponge for seamless foundation blending. Use dry for coverage, wet for an airbrush finish.',       price:179, badge:null,         img:'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=480&q=85' },
+  { id:14, cat:'tools',    name:'SilkBlend 10-Brush Set',           desc:'Professional-grade synthetic brush set for face, eye, and lip application. Ergonomic rose-gold handles.',             price:799, oldPrice:999, badge:'bestseller', img:'https://down-sg.img.susercontent.com/file/201f98f6a8993f29ad12c9f9ece58f75' },
+  { id:15, cat:'tools',    name:'MicroVelvet Beauty Sponge',        desc:'Vegan micro-velour sponge for seamless foundation blending. Use dry for coverage, wet for an airbrush finish.',       price:179, badge:null,         img:'https://tse3.mm.bing.net/th/id/OIP.YmjSfjfAjwITApdGjoRD1gHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3' },
 ];
  
 const ORDERS = {
@@ -228,10 +228,22 @@ function goPayment() {
   hide('ckStep1'); show('ckStep2');
 }
 function placeOrder() {
+
   const id = 'GUP-' + Date.now().toString().slice(-6);
+
+  ORDERS[id] = {
+    step: 0,
+    steps:['Order Placed','Processing','Shipped','Out for Delivery','Delivered']
+  };
+
   document.getElementById('orderIdOut').textContent = `Order ID: ${id}`;
-  hide('ckStep2'); show('ckStep3');
-  cart = []; updateCartBadge(); renderCartItems();
+
+  hide('ckStep2');
+  show('ckStep3');
+
+  cart = [];
+  updateCartBadge();
+  renderCartItems();
 }
 function closeCheckout() { document.getElementById('checkoutBg').classList.remove('open'); }
 document.getElementById('checkoutBg').addEventListener('click', e => { if (e.target === e.currentTarget) closeCheckout(); });
